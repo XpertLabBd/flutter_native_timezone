@@ -1,15 +1,21 @@
-# flutter_native_timezone
+# flutter_timezone
 
-A new Flutter project.
+A flutter plugin for getting the local timezone of the OS.
+
+This is a fork of the original [flutter_native_timezone](https://pub.dev/packages/flutter_native_timezone) due to lack of maintenance of that package.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Install this package and everything good will just follow along with you.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage examples
+
+### Get the timezone
+```dart
+final String currentTimeZone = await FlutterTimezone.getLocalTimezone();
+```
+
+## Reference
+
+[Wikipedia's list of TZ database names](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
