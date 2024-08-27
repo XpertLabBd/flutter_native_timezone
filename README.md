@@ -1,4 +1,4 @@
-# flutter_timezone
+# flutter_timezone updated gradle version gradle-8.5 and kotlin_version = "1.7.10"  compileSdk = 34  minSdk = 21
 
 A flutter plugin for getting the local timezone of the OS.
 
